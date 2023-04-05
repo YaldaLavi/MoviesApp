@@ -1,0 +1,36 @@
+.trending {
+  display: grid;
+  grid-template-columns: auto;
+  gap:15px;
+  justify-content: space-around;
+
+  }
+  /* @media (min-width:350px) and (max-width:650px){
+    .trending {
+      display: grid;
+      grid-template-columns: auto;
+      gap:15px;
+      justify-content: space-around;
+  
+    } */
+    
+  
+  @media only screen and (min-width:651px) and (max-width:1000px) {
+    .trending {
+      display: grid;
+      grid-template-columns: auto auto ;
+      justify-content: space-around;
+  
+    }
+
+  }
+  @media only screen and (min-width: 1000px ){
+    .trending {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap:15px;
+      justify-content: space-around;
+  
+    }
+
+  }
